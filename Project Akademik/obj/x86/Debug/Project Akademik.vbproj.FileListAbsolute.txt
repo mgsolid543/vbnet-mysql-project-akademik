@@ -12,3 +12,4 @@
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.xml
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.pdb
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormRuangan.resources
+\\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormMahasiswa.resources
