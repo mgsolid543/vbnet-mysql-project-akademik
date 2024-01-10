@@ -94,6 +94,12 @@
   <ItemGroup>
     <Compile Include="AksesData\DataControl.vb" />
     <Compile Include="AksesData\KoneksiDB.vb" />
+    <Compile Include="FormDosen.Designer.vb">
+      <DependentUpon>FormDosen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDosen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormLogin.Designer.vb">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </Compile>
@@ -137,6 +143,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormDosen.resx">
+      <DependentUpon>FormDosen.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>
     </EmbeddedResource>

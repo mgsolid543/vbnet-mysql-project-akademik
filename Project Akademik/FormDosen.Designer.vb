@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormMahasiswa
+Partial Class FormDosen
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -25,10 +25,8 @@ Partial Class FormMahasiswa
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBoxNIM = New System.Windows.Forms.TextBox()
+        Me.TextBoxNIP = New System.Windows.Forms.TextBox()
         Me.TextBoxNama = New System.Windows.Forms.TextBox()
-        Me.ComboBoxJenisKelamin = New System.Windows.Forms.ComboBox()
         Me.TextBoxAlamat = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.ButtonSimpan = New System.Windows.Forms.Button()
@@ -43,16 +41,16 @@ Partial Class FormMahasiswa
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(50, 44)
+        Me.Label1.Location = New System.Drawing.Point(49, 49)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(50, 25)
+        Me.Label1.Size = New System.Drawing.Size(46, 25)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "NIM"
+        Me.Label1.Text = "NIP"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(50, 104)
+        Me.Label2.Location = New System.Drawing.Point(49, 113)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(68, 25)
         Me.Label2.TabIndex = 1
@@ -61,119 +59,101 @@ Partial Class FormMahasiswa
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(50, 155)
+        Me.Label3.Location = New System.Drawing.Point(49, 165)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(146, 25)
+        Me.Label3.Size = New System.Drawing.Size(78, 25)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Jenis Kelamin"
+        Me.Label3.Text = "Alamat"
         '
-        'Label4
+        'TextBoxNIP
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(50, 224)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(78, 25)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Alamat"
-        '
-        'TextBoxNIM
-        '
-        Me.TextBoxNIM.Location = New System.Drawing.Point(229, 37)
-        Me.TextBoxNIM.Name = "TextBoxNIM"
-        Me.TextBoxNIM.Size = New System.Drawing.Size(133, 31)
-        Me.TextBoxNIM.TabIndex = 4
+        Me.TextBoxNIP.Location = New System.Drawing.Point(177, 49)
+        Me.TextBoxNIP.Name = "TextBoxNIP"
+        Me.TextBoxNIP.Size = New System.Drawing.Size(100, 31)
+        Me.TextBoxNIP.TabIndex = 3
         '
         'TextBoxNama
         '
-        Me.TextBoxNama.Location = New System.Drawing.Point(229, 94)
+        Me.TextBoxNama.Location = New System.Drawing.Point(177, 113)
         Me.TextBoxNama.Name = "TextBoxNama"
-        Me.TextBoxNama.Size = New System.Drawing.Size(281, 31)
-        Me.TextBoxNama.TabIndex = 5
-        '
-        'ComboBoxJenisKelamin
-        '
-        Me.ComboBoxJenisKelamin.FormattingEnabled = True
-        Me.ComboBoxJenisKelamin.Items.AddRange(New Object() {"L", "P"})
-        Me.ComboBoxJenisKelamin.Location = New System.Drawing.Point(229, 155)
-        Me.ComboBoxJenisKelamin.Name = "ComboBoxJenisKelamin"
-        Me.ComboBoxJenisKelamin.Size = New System.Drawing.Size(188, 33)
-        Me.ComboBoxJenisKelamin.TabIndex = 6
+        Me.TextBoxNama.Size = New System.Drawing.Size(278, 31)
+        Me.TextBoxNama.TabIndex = 4
         '
         'TextBoxAlamat
         '
-        Me.TextBoxAlamat.Location = New System.Drawing.Point(229, 221)
+        Me.TextBoxAlamat.Location = New System.Drawing.Point(177, 165)
         Me.TextBoxAlamat.Name = "TextBoxAlamat"
-        Me.TextBoxAlamat.Size = New System.Drawing.Size(675, 31)
-        Me.TextBoxAlamat.TabIndex = 7
+        Me.TextBoxAlamat.Size = New System.Drawing.Size(536, 31)
+        Me.TextBoxAlamat.TabIndex = 5
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(55, 275)
+        Me.DataGridView1.Location = New System.Drawing.Point(54, 218)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 33
-        Me.DataGridView1.Size = New System.Drawing.Size(849, 287)
-        Me.DataGridView1.TabIndex = 8
+        Me.DataGridView1.Size = New System.Drawing.Size(777, 371)
+        Me.DataGridView1.TabIndex = 6
         '
         'ButtonSimpan
         '
-        Me.ButtonSimpan.Location = New System.Drawing.Point(55, 581)
+        Me.ButtonSimpan.Location = New System.Drawing.Point(54, 618)
         Me.ButtonSimpan.Name = "ButtonSimpan"
-        Me.ButtonSimpan.Size = New System.Drawing.Size(129, 48)
-        Me.ButtonSimpan.TabIndex = 9
+        Me.ButtonSimpan.Size = New System.Drawing.Size(114, 43)
+        Me.ButtonSimpan.TabIndex = 7
         Me.ButtonSimpan.Text = "Simpan"
         Me.ButtonSimpan.UseVisualStyleBackColor = True
         '
         'ButtonTambah
         '
-        Me.ButtonTambah.Location = New System.Drawing.Point(190, 581)
+        Me.ButtonTambah.Location = New System.Drawing.Point(177, 618)
         Me.ButtonTambah.Name = "ButtonTambah"
-        Me.ButtonTambah.Size = New System.Drawing.Size(129, 48)
-        Me.ButtonTambah.TabIndex = 10
+        Me.ButtonTambah.Size = New System.Drawing.Size(114, 43)
+        Me.ButtonTambah.TabIndex = 8
         Me.ButtonTambah.Text = "Tambah"
         Me.ButtonTambah.UseVisualStyleBackColor = True
         '
         'ButtonUbah
         '
-        Me.ButtonUbah.Location = New System.Drawing.Point(325, 581)
+        Me.ButtonUbah.Location = New System.Drawing.Point(312, 618)
         Me.ButtonUbah.Name = "ButtonUbah"
-        Me.ButtonUbah.Size = New System.Drawing.Size(129, 48)
-        Me.ButtonUbah.TabIndex = 11
+        Me.ButtonUbah.Size = New System.Drawing.Size(114, 43)
+        Me.ButtonUbah.TabIndex = 9
         Me.ButtonUbah.Text = "Ubah"
         Me.ButtonUbah.UseVisualStyleBackColor = True
         '
         'ButtonHapus
         '
-        Me.ButtonHapus.Location = New System.Drawing.Point(484, 581)
+        Me.ButtonHapus.Location = New System.Drawing.Point(456, 618)
         Me.ButtonHapus.Name = "ButtonHapus"
-        Me.ButtonHapus.Size = New System.Drawing.Size(129, 48)
-        Me.ButtonHapus.TabIndex = 12
+        Me.ButtonHapus.Size = New System.Drawing.Size(114, 43)
+        Me.ButtonHapus.TabIndex = 10
         Me.ButtonHapus.Text = "Hapus"
         Me.ButtonHapus.UseVisualStyleBackColor = True
         '
         'ButtonBatal
         '
-        Me.ButtonBatal.Location = New System.Drawing.Point(619, 581)
+        Me.ButtonBatal.Location = New System.Drawing.Point(576, 618)
         Me.ButtonBatal.Name = "ButtonBatal"
-        Me.ButtonBatal.Size = New System.Drawing.Size(129, 48)
-        Me.ButtonBatal.TabIndex = 13
+        Me.ButtonBatal.Size = New System.Drawing.Size(114, 43)
+        Me.ButtonBatal.TabIndex = 11
         Me.ButtonBatal.Text = "Batal"
         Me.ButtonBatal.UseVisualStyleBackColor = True
         '
         'ButtonKeluar
         '
-        Me.ButtonKeluar.Location = New System.Drawing.Point(775, 581)
+        Me.ButtonKeluar.Location = New System.Drawing.Point(717, 618)
         Me.ButtonKeluar.Name = "ButtonKeluar"
-        Me.ButtonKeluar.Size = New System.Drawing.Size(129, 48)
-        Me.ButtonKeluar.TabIndex = 14
+        Me.ButtonKeluar.Size = New System.Drawing.Size(114, 43)
+        Me.ButtonKeluar.TabIndex = 12
         Me.ButtonKeluar.Text = "Keluar"
         Me.ButtonKeluar.UseVisualStyleBackColor = True
         '
-        'FormMahasiswa
+        'FormDosen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(964, 690)
+        Me.ClientSize = New System.Drawing.Size(889, 710)
         Me.ControlBox = False
         Me.Controls.Add(Me.ButtonKeluar)
         Me.Controls.Add(Me.ButtonBatal)
@@ -183,17 +163,15 @@ Partial Class FormMahasiswa
         Me.Controls.Add(Me.ButtonSimpan)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.TextBoxAlamat)
-        Me.Controls.Add(Me.ComboBoxJenisKelamin)
         Me.Controls.Add(Me.TextBoxNama)
-        Me.Controls.Add(Me.TextBoxNIM)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.TextBoxNIP)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Name = "FormMahasiswa"
+        Me.Name = "FormDosen"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Master Data Mahasiswa"
+        Me.Text = "Master Data Dosen"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -202,10 +180,8 @@ Partial Class FormMahasiswa
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents TextBoxNIM As System.Windows.Forms.TextBox
+    Friend WithEvents TextBoxNIP As System.Windows.Forms.TextBox
     Friend WithEvents TextBoxNama As System.Windows.Forms.TextBox
-    Friend WithEvents ComboBoxJenisKelamin As System.Windows.Forms.ComboBox
     Friend WithEvents TextBoxAlamat As System.Windows.Forms.TextBox
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents ButtonSimpan As System.Windows.Forms.Button

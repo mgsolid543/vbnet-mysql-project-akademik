@@ -80,6 +80,7 @@ Public Class FormMahasiswa
         DA.Fill(DS, "mahasiswa")
 
         DataGridView1.DataSource = DS.Tables("mahasiswa")
+        DataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.DisplayedCells
         DataGridView1.ReadOnly = True
     End Sub
 
