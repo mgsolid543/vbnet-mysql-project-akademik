@@ -21,4 +21,10 @@
         FormDosen.MdiParent = Me
         FormDosen.Show()
     End Sub
+
+    Private Sub JadwalToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles JadwalToolStripMenuItem.Click
+        Dim FormJadwal = New FormJadwal
+        FormJadwal.MdiParent = Me
+        FormJadwal.Show()
+    End Sub
 End Class
