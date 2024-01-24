@@ -1,11 +1,15 @@
+\\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\bin\Debug\Project Akademik.exe.config
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\bin\Debug\Project Akademik.exe
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\bin\Debug\Project Akademik.pdb
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\bin\Debug\Project Akademik.xml
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\bin\Debug\MySql.Data.Entity.EF6.dll
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\bin\Debug\MySql.Fabric.Plugin.dll
+\\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.vbprojResolveAssemblyReference.cache
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormDosen.resources
+\\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormJadwal.resources
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormLogin.resources
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormMahasiswa.resources
+\\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormReportSemuaMahasiswa.resources
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormRuangan.resources
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormUtama.resources
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.Resources.resources
@@ -13,5 +17,3 @@
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.exe
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.xml
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.pdb
-\\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.vbprojResolveAssemblyReference.cache
-\\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormJadwal.resources
