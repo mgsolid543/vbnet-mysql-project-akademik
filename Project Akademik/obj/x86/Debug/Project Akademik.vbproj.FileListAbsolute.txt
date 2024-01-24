@@ -17,3 +17,22 @@
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.exe
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.xml
 \\Mac\Home\Documents\Visual Studio 2010\Projects\Project Akademik\Project Akademik\obj\x86\Debug\Project Akademik.pdb
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\bin\Debug\Project Akademik.exe.config
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project Akademik.exe
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project Akademik.xml
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project Akademik.pdb
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\bin\Debug\Project Akademik.exe
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\bin\Debug\Project Akademik.pdb
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\bin\Debug\Project Akademik.xml
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\bin\Debug\MySql.Fabric.Plugin.dll
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project Akademik.vbprojResolveAssemblyReference.cache
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormDosen.resources
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormJadwal.resources
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormLogin.resources
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormMahasiswa.resources
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormRuangan.resources
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormUtama.resources
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project_Akademik.Resources.resources
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project Akademik.vbproj.GenerateResource.Cache
+C:\PROJECTS\vbnet-mysql-project-akademik\Project Akademik\obj\x86\Debug\Project_Akademik.FormCetakSemuaMahasiswa.resources

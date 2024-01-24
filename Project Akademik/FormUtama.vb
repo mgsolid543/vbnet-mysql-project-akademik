@@ -27,4 +27,10 @@
         FormJadwal.MdiParent = Me
         FormJadwal.Show()
     End Sub
+
+    Private Sub PenggunaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PenggunaToolStripMenuItem.Click
+        Dim formCetakSemuaMahasiswa = New FormCetakSemuaMahasiswa
+        formCetakSemuaMahasiswa.MdiParent = Me
+        formCetakSemuaMahasiswa.Show()
+    End Sub
 End Class
